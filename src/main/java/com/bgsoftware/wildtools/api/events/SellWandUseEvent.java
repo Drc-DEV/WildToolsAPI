@@ -33,6 +33,10 @@ public final class SellWandUseEvent extends Event implements Cancellable {
         this.multiplier = multiplier;
         this.cancelled = false;
     }
+    
+    public Chest getPlayer(){
+        return player;
+    }
 
     public Chest getChest(){
         return chest;
