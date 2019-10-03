@@ -34,7 +34,7 @@ public final class SellWandUseEvent extends Event implements Cancellable {
         this.cancelled = false;
     }
     
-    public Chest getPlayer(){
+    public Player getPlayer(){
         return player;
     }
 
